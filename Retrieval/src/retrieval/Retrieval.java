@@ -10,12 +10,30 @@ package retrieval;
  * @author admin
  */
 public class Retrieval {
+    private int id;
+    private String content;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Retrieval() {
     }
-    
+
+    public Retrieval(String content) {
+        this.content = content;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+     
 }
