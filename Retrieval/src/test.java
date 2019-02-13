@@ -13,7 +13,7 @@ import retrieval.retrieval;
  */
 public class test {
     public static void main(String[] args){
-        retrieval doc1 = new retrieval();
+        retrieval doc1 = new retrieval(1, "Computer information Retrieval");
         String result[]= doc1.getListofTerm();
         for (int i = 0; i < 10; i++) {
             System.out.println("term"+i+" = "+result[i]);
