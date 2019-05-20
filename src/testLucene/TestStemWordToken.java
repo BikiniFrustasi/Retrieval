@@ -18,7 +18,7 @@ import org.apache.lucene.util.Version;
 
 /**
  *
- * @author lenovo
+ * @author admin
  */
 public class TestStemWordToken {
 

@@ -9,7 +9,7 @@ import model.Document;
 
 /**
  *
- * @author lenovo
+ * @author admin
  */
 public class TestDocumentWithStemmedContent {
 

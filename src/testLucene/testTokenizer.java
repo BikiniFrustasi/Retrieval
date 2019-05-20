@@ -15,7 +15,7 @@ import org.apache.lucene.util.Version;
 
 /**
  *
- * @author user only
+ * @author admin
  */
 public class testTokenizer {
 
